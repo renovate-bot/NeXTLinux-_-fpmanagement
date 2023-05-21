@@ -1,0 +1,17 @@
+# This block carries details for telling this tool how to connect to Anchore to upload the FP Management Corrections in corrections.json
+nextlinux:
+  # URL of the NeXTLinux Deployment
+  url: http://localhost:8228
+
+  # Basic Authentication information for requests made to Anchore
+  user: admin
+  password: foobar
+
+  # Details about the HTTP request
+  http:
+
+    # If true, TLS verification will not happen
+    insecure: true
+
+    # Timeout (in seconds) for HTTP requests to Anchore
+    timeoutSeconds: 10
