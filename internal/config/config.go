@@ -8,7 +8,7 @@ import (
 	"gopkg.in/yaml.v2"
 
 	"github.com/adrg/xdg"
-	"github.com/dakaneye/fpmanagement/internal"
+	"github.com/nextlinux/fpmanagement/internal"
 	"github.com/mitchellh/go-homedir"
 	"github.com/spf13/viper"
 )
