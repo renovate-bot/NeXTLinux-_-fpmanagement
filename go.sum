@@ -649,6 +649,8 @@ github.com/mwitkow/go-conntrack v0.0.0-20161129095857-cc309e4a2223/go.mod h1:qRW
 github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f/go.mod h1:qRWi+5nqEBWmkhHvq77mSJWrCKwh8bxhgT7d/eI7P4U=
 github.com/nextlinux/enterprise-client-go v0.0.0-20230521084434-cc2ea35fc2e0 h1:GwxW8gJ/xIpXOdaetvMJa1XFUToavWCDeLAYhwEjvS0=
 github.com/nextlinux/enterprise-client-go v0.0.0-20230521084434-cc2ea35fc2e0/go.mod h1:a3JXpi8HE6rYLRm4FD57pp0w8LlLYDjVANBOUI09S5Q=
+github.com/nextlinux/enterprise-client-go v0.0.0-20230521091736-6ba4df4c739f h1:EbZQTiXx7jPkC7ccIQnklSMT9Xj8xPuE3f9PrR5HmRg=
+github.com/nextlinux/enterprise-client-go v0.0.0-20230521091736-6ba4df4c739f/go.mod h1:ZJlNKbFCsRl7QRAd0Yjzf9nEFBu4dLfmC/fk0IXXszM=
 github.com/pascaldekloe/goe v0.0.0-20180627143212-57f6aae5913c/go.mod h1:lzWF7FIEvWOWxwDKqyGYQf6ZUaNfKdP144TG7ZOy1lc=
 github.com/pascaldekloe/goe v0.1.0/go.mod h1:lzWF7FIEvWOWxwDKqyGYQf6ZUaNfKdP144TG7ZOy1lc=
 github.com/pelletier/go-toml/v2 v2.0.6 h1:nrzqCb7j9cDFj2coyLNLaZuJTLjWjlaz6nvTvIwycIU=
