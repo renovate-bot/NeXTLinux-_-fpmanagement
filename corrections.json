@@ -1,0 +1,240 @@
+[
+  {
+    "type": "package",
+    "match": {
+      "type": "java",
+      "field_matches": [
+        {
+          "field_name": "package",
+          "field_value": "spring-context"
+        }
+      ]
+    },
+    "replace": [
+      {
+        "field_name": "cpes",
+        "field_value": "cpe:2.3:a:*:spring_framework:{implementation-version}:*:*:*:*:*:*:*"
+      }
+    ]
+  },
+  {
+    "type": "package",
+    "match": {
+      "type": "java",
+      "field_matches": [
+        {
+          "field_name": "package",
+          "field_value": "spring-context-support"
+        }
+      ]
+    },
+    "replace": [
+      {
+        "field_name": "cpes",
+        "field_value": "cpe:2.3:a:*:spring_framework:{implementation-version}:*:*:*:*:*:*:*"
+      }
+    ]
+  },
+  {
+    "type": "package",
+    "match": {
+      "type": "java",
+      "field_matches": [
+        {
+          "field_name": "package",
+          "field_value": "spring-core"
+        }
+      ]
+    },
+    "replace": [
+      {
+        "field_name": "cpes",
+        "field_value": "cpe:2.3:a:*:spring_framework:{implementation-version}:*:*:*:*:*:*:*"
+      }
+    ]
+  },
+  {
+    "type": "package",
+    "match": {
+      "type": "java",
+      "field_matches": [
+        {
+          "field_name": "package",
+          "field_value": "groovy-all"
+        }
+      ]
+    },
+    "replace": [
+      {
+        "field_name": "cpes",
+        "field_value": "cpe:2.3:a:*:groovy:{implementation-version}:*:*:*:*:*:*:*"
+      }
+    ]
+  },
+  {
+    "type": "package",
+    "match": {
+      "type": "java",
+      "field_matches": [
+        {
+          "field_name": "package",
+          "field_value": "cryptacular"
+        },
+        {
+          "field_name": "implementation-version",
+          "field_value": "N/A"
+        }
+      ]
+    },
+    "replace": [
+      {
+        "field_name": "cpes",
+        "field_value": "cpe:2.3:a:*:cryptacular:1.1.0-sources:*:*:*:*:*:*:*"
+      }
+    ]
+  },
+  {
+    "type": "package",
+    "match": {
+      "type": "java",
+      "field_matches": [
+        {
+          "field_name": "package",
+          "field_value": "jersey-apache-client"
+        }
+      ]
+    },
+    "replace": [
+      {
+        "field_name": "cpes",
+        "field_value": "cpe:2.3:a:*:jersey-apache-client:{implementation-version}-sources:*:*:*:*:*:*:*"
+      }
+    ]
+  },
+  {
+    "type": "package",
+    "match": {
+      "type": "java",
+      "field_matches": [
+        {
+          "field_name": "package",
+          "field_value": "commons-net"
+        }
+      ]
+    },
+    "replace": [
+      {
+        "field_name": "cpes",
+        "field_value": "cpe:2.3:a:*:commons_net:{implementation-version}:*:*:*:*:*:*:*"
+      }
+    ]
+  },
+  {
+    "type": "package",
+    "match": {
+      "type": "java",
+      "field_matches": [
+        {
+          "field_name": "package",
+          "field_value": "commons-digester"
+        }
+      ]
+    },
+    "replace": [
+      {
+        "field_name": "cpes",
+        "field_value": "cpe:2.3:a:*:commons_digester:{implementation-version}:*:*:*:*:*:*:*"
+      }
+    ]
+  },
+  {
+    "type": "package",
+    "match": {
+      "type": "java",
+      "field_matches": [
+        {
+          "field_name": "package",
+          "field_value": "commons-codec"
+        }
+      ]
+    },
+    "replace": [
+      {
+        "field_name": "cpes",
+        "field_value": "cpe:2.3:a:*:commons_codec:{implementation-version}:*:*:*:*:*:*:*"
+      }
+    ]
+  },
+  {
+    "type": "package",
+    "match": {
+      "type": "java",
+      "field_matches": [
+        {
+          "field_name": "package",
+          "field_value": "commons-io"
+        }
+      ]
+    },
+    "replace": [
+      {
+        "field_name": "cpes",
+        "field_value": "cpe:2.3:a:*:commons_io:{implementation-version}:*:*:*:*:*:*:*"
+      }
+    ]
+  },
+  {
+    "type": "package",
+    "match": {
+      "type": "java",
+      "field_matches": [
+        {
+          "field_name": "package",
+          "field_value": "slf4j-api"
+        }
+      ]
+    },
+    "replace": [
+      {
+        "field_name": "cpes",
+        "field_value": "cpe:2.3:a:*:slf4j_ext:{implementation-version}:*:*:*:*:*:*:*"
+      }
+    ]
+  },
+  {
+    "type": "package",
+    "match": {
+      "type": "java",
+      "field_matches": [
+        {
+          "field_name": "package",
+          "field_value": "jersey-json"
+        }
+      ]
+    },
+    "replace": [
+      {
+        "field_name": "cpes",
+        "field_value": "cpe:2.3:a:*:jersey-jsonpackage:{implementation-version}:*:*:*:*:*:*:*"
+      }
+    ]
+  },
+  {
+    "type": "package",
+    "match": {
+      "type": "java",
+      "field_matches": [
+        {
+          "field_name": "package",
+          "field_value": "jetty-server"
+        }
+      ]
+    },
+    "replace": [
+      {
+        "field_name": "cpes",
+        "field_value": "cpe:2.3:a:*:jetty:{maven-version}:*:*:*:*:*:*:*"
+      }
+    ]
+  }
+]
